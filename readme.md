@@ -4,3 +4,8 @@
 
 ## for support redis package for node
 npm install redis
+
+
+## benchmark
+- set
+`redis-cli FLUSHALL && node benchmark-set.js && redis-cli INFO memory`
